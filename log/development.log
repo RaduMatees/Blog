@@ -7135,12 +7135,3 @@ Processing by ArticlesController#edit as HTML
 Completed 200 OK in 28ms (Views: 25.5ms | ActiveRecord: 0.6ms)
 
 
-Started GET "/" for 127.0.0.1 at 2017-09-21 12:21:47 +0300
-  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
-Processing by ArticlesController#index as HTML
-  Rendering articles/index.html.erb within layouts/application
-  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
-  Rendered articles/index.html.erb within layouts/application (10.8ms)
-Completed 200 OK in 144ms (Views: 127.9ms | ActiveRecord: 0.8ms)
-
-
